@@ -22,13 +22,34 @@ body {
   border-color: #eee ; 
 }
 
-nav {
-    display: inline-block;
+nav ul {
     list-style: none;
+    text-align: center;
+    margin-left: -50px;
 }
+
+nav li {
+  display: inline-block;
+}
+
+.more-articles {
+  display:flex;
+  width: 100%
+ justify-content: space-evenly;
+}
+
+section {
+  width: 50%;
+}
+
 .newspaper-container {
-    width: 400;
-    background-color:
+    width: 700px;
+    background-color: white;
+    box-shadow: 2px 2px 4px #ddd;
+    border-radius: 2px;
+    padding: 2px 0 0 2px;
+    margin: auto;
+
 }
 
 h2 {
@@ -38,5 +59,6 @@ h2 {
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmYmRjRdE.woff2) format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  color: #dd3232;
 
 }
